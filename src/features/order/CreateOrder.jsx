@@ -69,7 +69,7 @@ function CreateOrder() {
           <label className="sm:basis-40">Address</label>
           <div className="grow">
             <input
-              className="input w-full"
+              className="input w-full rounded-full border border-stone-200 px-4 py-2  text-sm placeholder:text-stone-400 transition-all duration-300 focus:outline-none focus:ring focus:ring-yellow-400 md:px-6 md:py-3"
               type="text"
               name="address"
               required
@@ -93,7 +93,11 @@ function CreateOrder() {
 
         <div>
           <input type="hidden" name="cart" value={JSON.stringify(cart)} />
-          <button disabled={isSubmitting} type="primary">
+          <button
+            disabled={isSubmitting}
+            type="primary"
+            className="bg-yellow-400 uppercase font-semibold text-stone-800 py-3 px-4 tracking-wide rounded-full hover:bg-yellow-300 transition-colors duration-100 focus:outline-none focus:ring focus:ring-yellow-300 focus:ring-offset-2 disabled:cursor-not-allowed"
+          >
             {isSubmitting ? "Placing order...." : "Order now"}
           </button>
         </div>
