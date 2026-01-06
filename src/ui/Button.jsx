@@ -5,10 +5,10 @@ function Button({ children, disabled, type, to, onClick }) {
     "bg-yellow-400 uppercase text-sm font-semibold text-stone-800 tracking-wide rounded-full hover:bg-yellow-300 transition-colors duration-100 focus:outline-none focus:ring focus:ring-yellow-500 focus:ring-offset-3 disabled:cursor-not-allowed cursor-pointer";
 
   const styles = {
-    primary: base + " py-3 px-4 sm:px-6 sm:py-3",
+    primary: base + " px-3 py-2 sm:px-6 sm:py-3",
 
     small: base + " px-2 py-1 md:px-4 md:py-2 text-xs md:text-sm",
-    round: base + " px-2.5 py-1 md:px-3 md:py-1.5 text-sm md:text-md ",
+    round: base + " px-2 py-.8 sm:px-3 sm:py-1.5 text-sm md:text-md ",
 
     secondary:
       "border border-stone-400 uppercase text-sm font-semibold text-stone-600 tracking-wide rounded-full hover:bg-stone-300 transition-colors duration-100 focus:outline-none focus:ring focus:ring-stone-300 focus:ring-offset-2 disabled:cursor-not-allowed cursor-pointer py-1 px-4 sm:px-6 sm:py-2.5",
