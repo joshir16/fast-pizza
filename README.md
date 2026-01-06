@@ -25,7 +25,7 @@ The project demonstrates a modern **React architecture**, specifically focusing 
 
 ## 🛠 Tech Stack
 
-- **Frontend:** React 18
+- **Frontend:** React 19
 - **Routing:** React Router v6.4+ (utilizing the new Data Router APIs)
 - **State Management:** Redux Toolkit (Slices & Thunks)
 - **Styling:** Tailwind CSS
